@@ -1,12 +1,13 @@
-package com.example.appinventory;
+package com.example.appinventory.modules;
 
 public class Barang {
+
     private long id;
     private String nama_barang;
     private String merk_barang;
     private String harga_barang;
-    public Barang()
-    {
+
+    public Barang() {
     }
 
     public long getId() {
@@ -42,10 +43,7 @@ public class Barang {
     }
 
     @Override
-    public String toString()
-    {
-        return "Barang "+ nama_barang +" "+ merk_barang + " "+
-                harga_barang;
+    public String toString() {
+        return "Barang " + nama_barang + " " + merk_barang + " " + harga_barang;
     }
-
 }
